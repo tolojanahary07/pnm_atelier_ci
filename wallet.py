@@ -49,3 +49,13 @@ class Wallet:
             float: The substraction of balance and val
         """
         self.balance = self.balance - val
+    
+    def convert_balance(self, rate):
+        """
+        convert balance  to Ariary
+        Returns:
+            _type_: _description
+        """
+        return self.balance*rate
+
+    
